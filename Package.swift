@@ -5,4 +5,5 @@ let package = Package(
     targets: [
         Target(name: "SwiftYAML", dependencies: ["libyaml"]),
     ]
+    //dependencies: [.Package(url: "https://github.com/aciidb0mb3r/SwiftBasic", majorVersion: 1)]
 )
